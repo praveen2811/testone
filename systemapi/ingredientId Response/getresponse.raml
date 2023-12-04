@@ -1,0 +1,14 @@
+#%RAML 1.0 Trait
+responses:
+      200:
+        body:
+          example:
+            {"ingredientId": 1000, "name": "Coffee Beans", "quantity": 1000, "unit": "kg", "lastUpdated": "2023-07-04T21:00:00" }
+      404:
+        body:
+          example:            
+            message: "Ingredient not found"
+      500:
+        body:
+          example:
+            message: "internal server error" 

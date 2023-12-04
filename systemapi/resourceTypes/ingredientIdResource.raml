@@ -1,0 +1,9 @@
+#%RAML 1.0 ResourceType
+get:
+     description: To get the details of Specific Ingredient.
+     is: getIngredientId
+put:
+      description: To update the details of Specific Ingredient.
+      body:
+        type: Ingredient
+      is: putIngredientId

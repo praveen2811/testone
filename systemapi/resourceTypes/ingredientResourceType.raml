@@ -1,0 +1,9 @@
+#%RAML 1.0 ResourceType
+get:
+    description: To fetch the ingredients in the inventory.
+    is: getIngredient 
+post:
+    description: To add a new ingredients to the inventory.
+    body:
+      type: Ingredient
+    is: postIngredient
